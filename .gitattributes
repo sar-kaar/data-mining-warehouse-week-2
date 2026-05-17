@@ -1,0 +1,5 @@
+# Keep notebooks as binary to avoid noisy diffs and line-ending churn
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb -text
